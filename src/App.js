@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import { ThemeProvider } from 'styled-components';
 
-import {BrowserRouter, Route, Routes,  Link} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes,  Link} from 'react-router-dom';
 
 import Home from './components/home/Home';
 import GlobalStyles from './components/styles/global.styled'
@@ -26,11 +26,11 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <div className="App">
-        <BrowserRouter>
+        <Router>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
       </ThemeProvider>
   );
