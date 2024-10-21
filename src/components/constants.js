@@ -42,10 +42,10 @@ export const TABS = [
         link: "skills",
         name: "Skills"
     }, 
-    { 
-        link: "projects",
-       name: "Projects"
-    }, 
+    // { 
+    //     link: "projects",
+    //    name: "Projects"
+    // }, 
     { 
         link: "contact",
        name: "Contact"

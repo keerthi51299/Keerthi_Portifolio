@@ -10,6 +10,9 @@ import { TABS } from '../constants';
 const NavItems = ({className, onClose = null}) => {
     const [currentSection, setCurrentSection] = useState('home');
     const clickHandler = (tab) => {
+        if(document) {
+            document.getElementById(tab)?.scrollIntoView({behavior: 'smooth'});
+        }
         setCurrentSection(tab);
         if(onClose) {
             onClose();
@@ -20,11 +23,11 @@ const NavItems = ({className, onClose = null}) => {
         <NavContainer className={className}>
             {TABS.map((tab, index)=>(
                 <NavWrapper tabindex="0" key={tab.name} selected={currentSection === tab.link}>
-                    <NavItem aria-label={tab.link} href={`#${tab.link}`} onClick={()=>{clickHandler(tab.link)}}>{tab.name}</NavItem>
+                    <NavItem aria-label={tab.link}  onClick={()=>{clickHandler(tab.link)}}>{tab.name}</NavItem>
                 </NavWrapper>
             ))}
         </NavContainer>
     )
-}
+}//href={`#${tab.link}`}
 
 export default NavItems;

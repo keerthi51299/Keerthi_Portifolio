@@ -87,7 +87,7 @@ export const SideNavHeader = styled.div`
     flex-direction: row;
     justify-content: space-between;
     height: 80px;
-    padding: 20px;
+    padding: 4px 20px 20px;
 `;
 
 export const IconButtonStyle = styled.button`
