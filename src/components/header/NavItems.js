@@ -22,8 +22,8 @@ const NavItems = ({className, onClose = null}) => {
     return (
         <NavContainer className={className}>
             {TABS.map((tab, index)=>(
-                <NavWrapper tabindex="0" key={tab.name} selected={currentSection === tab.link}>
-                    <NavItem aria-label={tab.link}  onClick={()=>{clickHandler(tab.link)}}>{tab.name}</NavItem>
+                <NavWrapper tabindex="0" key={tab.name} selected={currentSection === tab.link} onClick={()=>{clickHandler(tab.link)}}>
+                    <NavItem aria-label={tab.link}>{tab.name}</NavItem>
                 </NavWrapper>
             ))}
         </NavContainer>
