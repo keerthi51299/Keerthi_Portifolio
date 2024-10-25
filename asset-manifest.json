@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Keerthi_Portifolio/static/js/main.e1f2e9db.js",
+    "main.js": "/Keerthi_Portifolio/static/js/main.98907dfc.js",
     "static/js/453.4b8d8fd0.chunk.js": "/Keerthi_Portifolio/static/js/453.4b8d8fd0.chunk.js",
     "static/media/linkedin.svg": "/Keerthi_Portifolio/static/media/linkedin.4b78f7bcdfa390c835781e9162bb4c10.svg",
     "static/media/logo.svg": "/Keerthi_Portifolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -9,10 +9,10 @@
     "static/media/3lines.svg": "/Keerthi_Portifolio/static/media/3lines.7b959cf3262642c8b6eb51fb7759c07e.svg",
     "static/media/close.svg": "/Keerthi_Portifolio/static/media/close.8d75ff19ce3e32d36f1ea8254ff267c5.svg",
     "static/media/share.svg": "/Keerthi_Portifolio/static/media/share.bf0743eb281e5f603baa349bde2a6102.svg",
-    "main.e1f2e9db.js.map": "/Keerthi_Portifolio/static/js/main.e1f2e9db.js.map",
+    "main.98907dfc.js.map": "/Keerthi_Portifolio/static/js/main.98907dfc.js.map",
     "453.4b8d8fd0.chunk.js.map": "/Keerthi_Portifolio/static/js/453.4b8d8fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e1f2e9db.js"
+    "static/js/main.98907dfc.js"
   ]
 }
